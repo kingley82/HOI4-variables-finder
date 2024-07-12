@@ -106,17 +106,16 @@ class WindowApp:
             tree = os.walk(config_data["gamepath"]+i)
             for path, subdirs, files_ in tree:
                 for name in files_:
-                    if name.split(".")[-1] == "txt":
+                    if name.split(".")[-1] in ["txt", "gfx", "gui"]:
                         with open(path+"/"+name, "r", encoding="utf-8") as f:
                             if s in f.read(): 
                                 self.resultText.insert("end", i+path.split(i)[-1].replace("\\", "/")+"/"+name+"\n") #i - line 104
                                 self.master.update()
                                 found += 1
-                    else:
-                        if s in name:
-                            self.resultText.insert("end", i+path.split(i)[-1].replace("\\", "/")+"/"+name+"\n") #i - line 104
-                            self.master.update()
-                            found += 1
+                    if s in name and name not in self.resultText.get("0.0", "end"):
+                        self.resultText.insert("end", "FILENAME: "+i+path.split(i)[-1].replace("\\", "/")+"/"+name+"\n") #i - line 104
+                        self.master.update()
+                        found += 1
         self.status["text"] = f"Done! {found} matches found."
         
 

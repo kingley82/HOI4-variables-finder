@@ -1,5 +1,6 @@
 # HOI4-variables-finder
 A simple program that can find any variable you type in game files.  
+Windows only!  
 **CASE SENSETIVE!!**
 
 <img src="https://github.com/kingley82/HOI4-variables-finder/blob/main/images/preview.png?raw=true" alt="preview" >

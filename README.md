@@ -1,7 +1,7 @@
 # HOI4-variables-finder
 A simple program that can find any variable you type in game files.  
 Tested on Windows. <ins>May</ins> not work on Linux/MacOS  
-**CASE SENSETIVE!!**
+**CASE SENSITIVE!!**
 
 <img src="https://github.com/kingley82/HOI4-variables-finder/blob/main/images/preview.png?raw=true" alt="preview" >
 

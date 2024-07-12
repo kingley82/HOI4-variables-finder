@@ -2,6 +2,7 @@
 A simple program that can find any variable you type in game files.  
 **CASE SENSETIVE!!**
 
+<img src="https://github.com/kingley82/HOI4-variables-finder/blob/main/images/preview.png?raw=true" alt="preview" >
 
 In `config.json` you see two settings: `gamepath` and `priority`. In `gamepath` you can type a path to your HOI4, or just leave it blank - program will ask you to choose it. `priority` have 2 options:
 1. Only defined pathes will be scanned by program

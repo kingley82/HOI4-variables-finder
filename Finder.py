@@ -106,7 +106,7 @@ class WindowApp:
             tree = os.walk(config_data["gamepath"]+i)
             for path, subdirs, files_ in tree:
                 for name in files_:
-                    if name.split(".")[-1] in ["txt", "gfx", "gui"]:
+                    if name.split(".")[-1] in ["txt", "gfx", "gui", "yml"]:
                         with open(path+"/"+name, "r", encoding="utf-8") as f:
                             if s in f.read(): 
                                 self.resultText.insert("end", i+path.split(i)[-1].replace("\\", "/")+"/"+name+"\n") #i - line 104

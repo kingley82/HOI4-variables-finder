@@ -5,7 +5,7 @@ Tested on Windows. <ins>May</ins> not work on Linux/MacOS
 
 <img src="https://github.com/kingley82/HOI4-variables-finder/blob/main/images/preview.png?raw=true" alt="preview" >
 
-In `config.json` you see two settings: `gamepath` and `priority`. In `gamepath` you can type a path to your HOI4, or just leave it blank - program will ask you to choose it. `priority` have 2 options:
+In `config.json` you see two settings: `gamepath` and `priority`. In `gamepath` you can type a path to your HOI4, or path to any HOI4 mod, or just leave it blank - program will ask you to choose it. `priority` have 2 options:
 1. Only defined pathes will be scanned by program
 2. They will be scanned in order that they written.  
 
